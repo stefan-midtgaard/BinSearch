@@ -1,0 +1,32 @@
+
+Mid point calculator
+1. Given range [0,2], 1 must be returned as Middle point of range
+2. Given range [0,4], 2 must be returned as Middle point of range
+3. Given range [4,4], 4 must be returned as Middle point of range
+4. Given negative range [5,4], IllegalArgumentException must be thrown
+9. Given range [0,1], 0 must be returned as middle point
+
+Binary Search
+5. Given array 1,2,3 and target 1, then index 0 must be returned and MidPointCalculator must called twice
+6. Given array 1,2,3 and target 4, then index -1 must be returned and MidPointCalculator must called twice
+5. Given array 1,2,3 and target 3, then index 2 must be returned and MidPointCalculator must called twice
+7. Given array [] and target 3, then index -1 must be returned and MidPointCalculator is not invoked
+8. Given array 2,7,9,11,14,15 and target 11, then index 3 is returned and MidPointCalculator must called thrice
+10. Given array 2,7,9,11,14,15 and target 7, then index 1 is returned and MidPointCalculator must called thrice
+11. Given array -100, -6, 2,7,9,11,14,15 and target -6, then index 1 is returned and MidPointCalculator must called two times // as a result of EC analysis
+
+
+
+-------------------- BEFORE DO OVER ---------------
+Binary search
+x5. Given array 1,2,3 and target 1, then index 0 must be returned
+x6. Given array 1,2,3 and target 3, then index 2 must be returned 
+x7. Given array 2,7,9,11,14,15 and target 11, then index 3 
+x8. Given array 2,7,9,11,14,15 and target 7, then index 1
+ - Ended up with a linear search
+
+ 
+ Man skal stadig tænke over implementationen - man kan ikke forvente at TDD løser opgaven for dig. 
+ Man kan ikke lave TDD hovedløst...
+ 
+ 
